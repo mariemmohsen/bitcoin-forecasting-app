@@ -91,7 +91,17 @@ The app displays:
 | Auto Select Best Model | Model comparison | Runs available models and selects the one with the lowest backtest RMSE |
 
 ---
+## Model Performance (Backtest – last 30 days)
 
+The models were evaluated using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) on the last 30 days of historical data.
+
+| Model | MAE (USD) | RMSE (USD) |
+|------|----------|-----------|
+| Prophet Enhanced | 707 | 880 |
+| Random Forest | 1276 | 1578 |
+| ARIMA Auto | 2539 | 3481 |
+
+Prophet Enhanced achieved the best performance with the lowest RMSE, making it the selected model for forecasting.
 ## How each model handles crypto-market volatility
 
 Bitcoin prices can be highly volatile, with sudden trend changes and large daily movements. The app uses several techniques to make forecasting more stable.
