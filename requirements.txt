@@ -1,0 +1,8 @@
+streamlit>=1.35.0
+numpy>=1.26.0
+pandas>=2.2.0
+plotly>=5.22.0
+scikit-learn>=1.4.0
+prophet>=1.1.5          # requires cmdstanpy (installed automatically)
+pmdarima>=2.0.4         # Auto-ARIMA with automatic order selection
+statsmodels>=0.14.0     # required by pmdarima internally
